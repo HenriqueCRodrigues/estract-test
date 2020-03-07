@@ -14,6 +14,18 @@ Para emular o projeto, basta seguir os requisitos básico do Laravel 7.x, que se
 
 Após isso, utilizar o comando "php artisan serve"
 
+#Dependências do Projeto
+```
+"php": "^7.2.5",
+"fideloper/proxy": "^4.2",
+"fruitcake/laravel-cors": "^1.0",
+"guzzlehttp/guzzle": "^6.5", //Biblioteca para tratar requisições HTTP
+"laravel/framework": "^7.0",
+"laravel/tinker": "^2.0",
+"maatwebsite/excel": "^3.1", //Biblioteca para manipular planilhas de Excel
+"symfony/dom-crawler": "^5.0" //Biblioteca para manipular o DOMDocument recebido do Guzzle
+```
+
 ```
 +--------+----------+--------------------+------+-------------------------------------+--------------+
 | Method   | URI                | Action                                              | Middleware   |
