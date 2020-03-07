@@ -14,7 +14,7 @@ Para emular o projeto, basta seguir os requisitos básico do Laravel 7.x, que se
 
 Após isso, utilizar o comando "php artisan serve"
 
-#Dependências do Projeto
+#### Dependências do Projeto
 ```
 "php": "^7.2.5",
 "fideloper/proxy": "^4.2",
