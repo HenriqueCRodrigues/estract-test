@@ -35,9 +35,18 @@ Após isso, utilizar o comando "php artisan serve"
 | GET|HEAD | api/get-salary-xls | App\Http\Controllers\CrawlerController@getSalaryXLS | api          |
 +--------+----------+--------------------+------+-------------------------------------+--------------+
 ```
+
+#### / 
+```
+Rota do tipo GET, retorna uma view com as informações do crawler com o link para download da planilha
+Exemplo da view
+```
+<img src="https://i.imgur.com/tZzrSSd.png">
+<br>
+
 #### api/get-salary 
 ```
-Rota do tipo GET, que retorna as informações do crawler formatada
+Rota do tipo GET, retorna as informações do crawler formatada
 Exemplo do Response abaixo
 ```
 <img src="https://i.imgur.com/5oospfB.png">
@@ -45,7 +54,7 @@ Exemplo do Response abaixo
 
 #### api/get-salary-xls
 ```
-Um bônus, rota do tipo GET, que fornece os dados da API em uma planilha excel
+Um bônus, rota do tipo GET, fornece os dados da API em uma planilha excel
 Exemplo da planilha abaixo
 ```
 <img src="https://i.imgur.com/BCWZmbH.png">
